@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 export default function PartnershipPage() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
