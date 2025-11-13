@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Link from "next/link";
 export default function PartnershipPage() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
@@ -35,6 +36,7 @@ export default function PartnershipPage() {
             <button className="bg-white text-blue-800 mt-4 mb-6 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
               Learn More
             </button>
+            
             <button className="bg-indigo-500 text-white border mb-6 border-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-600 transition">
               Partner With Us
             </button>
@@ -51,14 +53,14 @@ export default function PartnershipPage() {
             className="rounded-lg shadow-lg"
           />
           <Image
-            src="/images/lemtech-team2.jpg"
+            src="/workspace.png"
             alt="Lemtech workspace"
             width={150}
             height={100}
             className="rounded-lg shadow-lg"
           />
           <Image
-            src="/images/lemtech-team3.jpg"
+            src="/dev.png"
             alt="Developers working"
             width={150}
             height={100}
@@ -70,15 +72,15 @@ export default function PartnershipPage() {
       {/* Partner with Lemtech Hub */}
       <section className="py-20 bg-gray-50 w-full text-center px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Partner with Lemtech Hub</h2>
-          <p className="text-lg text-gray-600 mb-8">
+          <h2 className="text-5xl font-bold mb-4">Partner with Lemtech Hub</h2>
+          <p className="text-2xl text-gray-600 mb-8">
             We believe technology is a bridge to transformation. Through{" "}
             <strong>custom software development</strong>,{" "}
             <strong>technical partnerships</strong>, and{" "}
             <strong>mentorship programs</strong>, we empower startups,
             enterprises, and tech talents to grow and scale.
           </p>
-          <p className="text-gray-700 mb-8">
+          <p className="text-gray-700 text-2xl mb-8">
             Whether you are an investor, business leader, or ecosystem builder,
             we’re excited to collaborate and build the next generation of
             impactful digital solutions.
@@ -92,8 +94,8 @@ export default function PartnershipPage() {
       {/* Contact Form */}
       <section className="w-full py-20 bg-white px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Let’s Hear From You</h2>
-          <p className="text-gray-600 mb-10">
+          <h2 className="text-5xl font-bold mb-4">Let’s Hear From You</h2>
+          <p className="text-gray-500 text-2xl mb-10">
             Have a project in mind or want to explore partnership opportunities?
             Let’s connect and make innovation happen.
           </p>
@@ -154,7 +156,7 @@ export default function PartnershipPage() {
           {/* Custom Software Solutions */}
           <div className="grid md:grid-cols-2 gap-10 mb-16 items-center">
             <Image
-              src="/images/software-dev.jpg"
+              src="/software.png"
               alt="Custom Software Development"
               width={500}
               height={350}
