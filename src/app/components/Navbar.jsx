@@ -60,7 +60,7 @@ export default function Navbar() {
 
       {menuOpen && (
         <div className="md:hidden">
-          <ul className="flex flex-col items-start gap-4 px-6 py-4 bg-white shadow-md">
+          <ul className="flex flex-col items-start gap-4 px-6 py-4 bg-blue-500 shadow-md">
             {navItems.map((page, index) => (
               <li key={index}>
                 <Link href={page.href}>{page.text}</Link>

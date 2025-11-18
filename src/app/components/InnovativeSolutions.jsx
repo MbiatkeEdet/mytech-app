@@ -32,10 +32,10 @@ const InnovativeSolutions = () => {
   return (
     <section className="bg-white dark:bg-gray-900 px-6 py-20">
       <div className="max-w-6xl mx-auto text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+        <h2 className="text-5xl md:text-4xl font-bold text-gray-900 dark:text-white">
           Innovative Solutions
         </h2>
-        <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+        <p className="mt-4 text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
           We leverage the latest technologies to deliver scalable, impactful, and
           future-ready solutions for businesses of all sizes.
         </p>

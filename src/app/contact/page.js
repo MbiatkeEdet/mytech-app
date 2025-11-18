@@ -5,6 +5,7 @@ import { FaTelegramPlane } from 'react-icons/fa';
 import { BsTwitterX } from 'react-icons/bs';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { FaPhone } from 'react-icons/fa6';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -40,10 +41,10 @@ const ContactPage = () => {
       href: "mailto:lemtechhub@gmail.com"
     },
     {
-      icon: <FaTelegramPlane className="text-2xl" />,
-      title: "Telegram",
-      detail: "@lemtechhub",
-      href: "https://t.me/lemtechhub"
+      icon: <FaPhone className="text-2xl" />,
+      title: "Call Us",
+      detail: "+2348036265605",
+      href: "tel:+2348036265605"
     },
     {
       icon: <BsTwitterX className="text-2xl" />,
